@@ -10,18 +10,17 @@
             color: #e94560;
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
+            padding: 50px;
         }
         h1 {
-            margin-top: 50px;
+            font-size: 2.5em;
         }
         button {
             background-color: #0f3460;
             color: white;
             border: none;
             padding: 15px 30px;
-            font-size: 18px;
+            font-size: 1.2em;
             cursor: pointer;
             border-radius: 5px;
             transition: background-color 0.3s;
@@ -30,19 +29,17 @@
             background-color: #16213e;
         }
         .moon {
-            margin: 20px auto;
-            width: 200px;
-            height: 200px;
             background-image: url('https://classroomclipart.com/images/gallery/Animations/Space/animated-phases-of-the-moon-clipart.gif');
-            background-size: cover;
+            height: 200px;
+            width: 200px;
+            margin: 20px auto;
         }
         .extensions-list {
             list-style-type: none;
             padding: 0;
         }
-        .proxy-button {
-            background-color: #00adb5;
-            margin-top: 20px;
+        .extensions-list li {
+            font-size: 1.2em;
         }
     </style>
 </head>
@@ -50,22 +47,18 @@
     <h1>Disable Extension</h1>
     <div class="moon"></div>
     <button onclick="disableExtension()">Disable Extension</button>
-    <button class="proxy-button" onclick="window.location.href='https://www.conscientiabeam.com/web-tool/croxy-proxy/'">Proxy</button>
-    
-    <h2>Blocked Extensions</h2>
+    <button onclick="window.location.href='http://learncodingdaily.com'">Unblocked Games</button>
+    <button onclick="window.location.href='https://www.conscientiabeam.com/web-tool/croxy-proxy/'">Proxy</button>
+    <h2>Extensions:</h2>
     <ul class="extensions-list">
         <li>Light Speed Filter Agent</li>
         <li>Securly</li>
-        <li>Gogaurdian</li>
+        <li>Goguardian</li>
         <li>Blocksi</li>
     </ul>
-    
-    <h2>Unblocked Games</h2>
-    <button onclick="window.location.href='http://learncodingdaily.com'">Play Games</button>
-
     <script>
         function disableExtension() {
-            alert("Extension disabled!"); // Placeholder for actual functionality
+            alert("This action cannot be performed due to restrictions.");
         }
     </script>
 </body>
