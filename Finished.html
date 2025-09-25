@@ -49,21 +49,24 @@
 <body>
     <h1>Disable Extension</h1>
     <div class="moon"></div>
-    <button onclick="alert('Extension Disabled!')">Disable Extension</button>
-    <div>
-        <h2>Unblocked Games</h2>
-        <button onclick="window.location.href='http://learncodingdaily.com'">Play Games</button>
-    </div>
-    <div>
-        <h2>Proxy</h2>
-        <button class="proxy-button" onclick="window.location.href='https://www.conscientiabeam.com/web-tool/croxy-proxy/'">Use Proxy</button>
-    </div>
-    <h2>Extensions List</h2>
+    <button onclick="disableExtension()">Disable Extension</button>
+    <button class="proxy-button" onclick="window.location.href='https://www.conscientiabeam.com/web-tool/croxy-proxy/'">Proxy</button>
+    
+    <h2>Blocked Extensions</h2>
     <ul class="extensions-list">
         <li>Light Speed Filter Agent</li>
         <li>Securly</li>
-        <li>Goguardian</li>
+        <li>Gogaurdian</li>
         <li>Blocksi</li>
     </ul>
+    
+    <h2>Unblocked Games</h2>
+    <button onclick="window.location.href='http://learncodingdaily.com'">Play Games</button>
+
+    <script>
+        function disableExtension() {
+            alert("Extension disabled!"); // Placeholder for actual functionality
+        }
+    </script>
 </body>
 </html>
